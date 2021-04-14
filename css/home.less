@@ -1,0 +1,422 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@width: 1601px;
+@navigation-height: 71px;
+@hero-height: 901px;
+@border-height: 106px;
+
+.main-container {
+	position: relative;
+	width: @width;
+	margin: 0 auto;
+}
+	.hero {
+		width: @width;
+		height: @hero-height;
+		margin: 0 auto;
+		background-image: url(../img/main-img.jpg);
+	}
+
+		.hero-content {
+			margin-top: 212px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 765px;
+		}
+
+			.hero-title {
+				font-family: "Playfair Display";
+				color: #FFFFFF;
+				font-weight: 700;
+				font-size: 92px;
+				letter-spacing: 6px;
+				line-height: 104px;
+			}
+
+			.hero-line {
+				display: block;
+				margin-top: 60px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.hero-text {
+				margin-left: auto;
+				margin-right: auto;
+				width: 544px;
+				margin-top: 64px;
+				line-height: 34px;
+				font-family: "Raleway";
+				letter-spacing: 1.83px;
+				text-align: center;
+				color: #FFFFFF;
+				font-size: 24px;
+			}
+
+			.hero-btn {
+				margin-top: 68px;
+				margin-left: auto;
+				margin-right: auto;
+				padding: 21px 50px;
+				width: 101px;
+				letter-spacing: 3.93px;
+				display: block;
+				background-image: url(../img/btn-back.png);
+				text-decoration: none;
+				font-family: "Alegreya";
+				color: #FFFFFF;
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 9px;
+				text-transform: uppercase;
+			}
+
+	.navigation {
+		width: @width;
+		height: @navigation-height;
+		background-image: url(../img/navigation-back-1.png);
+		display: inline-block;
+		color: #FFFFFF;
+
+	}
+
+		.logo {
+			display: inline-block;
+			font-family: "Scriptina";
+			text-decoration: none;
+			color: #FFFFFF;
+			font-size: 30px;
+			line-height: 44px;
+			letter-spacing: 6px;
+			margin-left: 170px;
+			margin-top: 8px;
+		}
+
+		.menu {
+			display: inline;
+			margin-top: 12px;
+			margin-left: 104px;
+
+			color: #FFFFFF;
+			font-size: 14px;
+			font-family: "Alegreya";
+			font-weight: 400;
+		}
+
+			.menu-text {
+				color: #FFFFFF;
+				letter-spacing: 4px;
+				display: inline;
+				text-decoration: none;
+				text-transform: uppercase;
+			}
+
+			.menu-text-delimiter {
+				display: inline;
+				text-decoration: none;
+				padding-left: 35px;
+				padding-right: 35px;
+			}
+
+		.socials {
+			display: inline-block;
+			margin-left: 150px;
+			margin-right: 170px;
+		}
+
+			.social-margin {
+				padding-left: 27px;
+				padding-right: 28px;
+			}
+
+	.border {
+		width: @width;
+		height: @border-height;
+		position: absolute;
+		top: 850px;
+	}
+
+		.bread-container {
+			background-image: url(../img/bread-icon.svg);
+			width: 106px;
+			height: 106px;
+			margin: auto;
+		}
+
+	.content-container {
+		width: @width;
+		position: absolute;
+		top: 915px;
+	}
+
+		.art-of-cakes {
+			display: inline-flex;
+			width: @width;
+			height: 752px;
+			background-image: url(../img/art-of-cakes-back.jpg);
+			background-color: 	rgb(255,255,255, .5);
+		}
+
+			.left-content {
+				margin-left: 243px;
+				margin-top: 90px;
+				width: 484px;
+				height: 551px;
+			}
+
+				.art-title {
+					text-align: center;
+					font-size: 48px;
+					line-height: 32px;
+					font-family: "Alegreya";
+					color: #56534C;
+					font-weight: 700;
+				}
+
+				.art-title-small {
+				    margin-top: 14px;
+				    line-height: 11px;
+    				letter-spacing: 1.1px;
+					text-align: center;
+					text-transform: uppercase;
+					font-size: 14px;
+					font-family: "Alegreya";
+					color: #A47D5E;
+					font-weight: 700;
+				}
+
+				.art-text {
+					margin-top: 70px;
+					text-align: center;
+					color: #56534C;
+					font-size: 14px;
+					font-family: "Raleway";
+
+				}
+
+				.chef-name {
+					margin-top: 45px;
+					font-family: "Alegreya";
+					font-size: 24px;
+					color: #56534C;
+					text-align: center;
+					font-weight: 700;
+				}
+
+				.about-chef {
+					margin-top: 43px;
+					text-align: center;
+					width: 376px;
+					margin-right: auto;
+					margin-left: auto;
+					font-family: "Alegreya";
+					font-size: 24px;
+					color: #56534C;
+				}
+
+					.text-container {
+						display: inline-block;
+						width: 112px;
+						padding-top: 21px;
+						padding-bottom: 18px;
+						line-height: 24px;
+						border-top: 2px solid #D7D5CA;
+						border-bottom: 2px solid #D7D5CA;
+						text-align: center;
+					}
+
+					.chef-img {
+						display: inline-block;
+						vertical-align: middle;
+					    padding-left: 19px;
+    					padding-right: 18px;
+					}
+
+				.signature-container {
+					width: 454px;
+					text-align: center;
+					position: relative;
+				}
+
+					.left-mark {
+						display: inline;
+						color: #B7B5B4;
+						font-size: 60px;
+					}
+
+					.signature {
+						margin-top: 33px;
+						display: inline-block;
+						width: 236px;
+						padding-left: 60px;
+   						padding-right: 61px;
+						vertical-align: middle;
+						font-family: "Scriptina";
+						font-size: 24px;
+						letter-spacing: 0.5px;
+					    line-height: 35px;
+						color: #A47D5E;
+					}
+
+					.right-mark {
+						display: inline;
+						color: #B7B5B4;
+						font-size: 60px;
+						position: absolute;
+						top: 93px;
+					}
+
+			.right-content {
+				position: relative;
+				margin-left: 73px;
+				margin-top: 91px;
+				width: 634px;
+				height: 534px;
+			}
+
+				.art-img-container {
+					position: relative;
+					display: inline-block;
+					padding: 9px 9px;
+				}
+
+					.art-img-border {
+						position: absolute;
+						top: 15px;
+						left: 15px;
+						width: 272px;
+   						height: 228px;
+						border: 6px solid #FFFFFF;
+
+					}
+
+				.sticker-container {
+					width: 247px;
+					height: 247px;
+					position: absolute;
+					top: 146.5px;
+   					left: 191.5px;
+					background-image: url(../img/tastes-sticker.png);
+				}
+
+					.sticker-text {
+					    margin-top: 87px;
+    					line-height: 38px;
+						font-family: "Alegreya";
+						text-align: center;
+						font-size: 30px;
+						text-transform: uppercase;
+						color: #C9B176;
+						letter-spacing: 2px;
+					}
+
+		.perfect-pancakes {
+			width: @width;
+			background-image: url(../img/perfect-pancakes-back.jpg);
+		}
+
+			.pancakes-container {
+				position: relative;
+				margin: auto;
+				width: 1087px;
+				height: 556px;
+			}
+
+				.pancakes-content {
+					background-image: url(../img/pancakes-content-back.jpg);
+					display: inline-block;
+					vertical-align: bottom;
+					width: 967px;
+					height: 513px;
+				}
+
+					.pancakes-slider {
+
+					}
+
+						.switch {
+
+						}
+
+							.star {
+
+							}
+
+							.selected {
+
+							}
+
+						.pancakes-slider-angle {
+
+						}
+
+					.pancakes-about {
+
+					}
+
+						.pancakes-title {
+
+						}
+
+						.pancakes-title-small {
+
+						}
+
+						.pancakes-text {
+
+						}
+
+						.pancakes-another {
+
+						}
+
+							.pancakes-left-btn {
+
+							}
+
+							.pancakes-another-img {
+
+							}
+
+							.pancakes-right-btn {
+
+							}
+
+					.circle-btn {
+
+					}
+
+				.pancakes-sticker {
+					position: absolute;
+					font-family: "Alegreya";
+					background-image: url(../img/ready-in-back.jpg);
+					width: 202px;
+					height: 202px;
+
+				}
+
+					.pancakes-sticker-title {
+						text-transform: uppercase;
+						color: #A47D5E;
+						font-size: 18px;
+					}
+
+					.pancakes-sticker-num {
+						font-size: 30px;
+						color: #DFC591;
+					}
+
+					.pancakes-sticker-text {
+						color: #A47D5E;
+						font-size: 18px;
+					}
+
+
+
+@font-face {
+	font-family: "Scriptina";
+	src: url("../fonts/Scriptina.ttf") format("truetype");
+}
